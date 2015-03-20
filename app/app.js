@@ -2,9 +2,10 @@ angular.module('MyApp', [
   'ngMessages',
   'ngRoute',
   'ngSanitize',
+  'ngAnimate',
   'mgcrea.ngStrap',
   'auth',
-  //'kids',
+
   'profile',
   'angular-cron-jobs',
   //'later',

@@ -5,10 +5,11 @@ angular.module('MyApp', [
   'ngAnimate',
   'mgcrea.ngStrap',
   'auth',
-
+  'kids',
   'profile',
   'angular-cron-jobs',
-  //'later',
+  'slidingPuzzle',
+  'wordSearchPuzzle',
   'posts',
   'reminders'])
   .config(function($routeProvider) {

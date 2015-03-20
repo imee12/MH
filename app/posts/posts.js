@@ -19,7 +19,7 @@
             $routeProvider
                 .when('/posts', {
                     templateUrl: 'posts/views/list.html',
-                    controller: 'postsController as postsCtl'
+                    controller: 'postsController as postsCtl',
                 })
                 .when('/posts/new', {
                     templateUrl: 'posts/views/create.html',

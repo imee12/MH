@@ -548,10 +548,9 @@ h5 {
 
 
 fieldset {
-    margin: 0 0 30px 60px;
+    margin: 0 0 30px 0;
     padding: 18px;
     border: 2px solid #ddd;
-    width: 200px;
     background-color: white;
     border-radius: 10px;
     display: inline-block;
@@ -562,7 +561,6 @@ legend {
     display: block;
     background-color: #e4e4e4;
     border-radius: 6px;
-    text-align: center;
 }
 ul {
     margin: 0;
@@ -645,7 +643,7 @@ ul {
     padding: 10px;
     margin-right: 40px;
 }
-/* #types li a {
+#types li a {
     font-size: 22pt;
     color: #999;
 }
@@ -659,39 +657,11 @@ ul {
 #types li.selected a {
     font-weight: bold;
     color: black;
-    text-dec */oration: none;
+    text-decoration: none;
 }
 
 
 
-#sliding-advanced > div {
-    float: left;
-    margin: 0 40px 0 0;
-    min-width: 300px;
-}
-#sliding-advanced .sliding-puzzle {
-    clear: both;
-    margin-top: 30px;
-}
-#sliding-advanced h2 {
-    margin: 0 0 10px 0;
-    font-weight: bold;
-}
-#sliding-advanced .status {
-    float: left;
-    width: 40%;
-    height: 50px;
-}
-#sliding-advanced .size {
-    float: right;
-    height: 50px;
-    text-align: right;
-}
-#sliding-advanced .src input {
-    width: 98%;
-    font-family: "Courier New";
-    margin-bottom: 4px;
-}
 
 #word-search {
     position: relative;
@@ -723,7 +693,12 @@ ul {
     font-weight: bold;
 }
 
-#sliding-simple {
- display: inline-block;
+.puzzcats {
+  margin: 0px 0px 0px 105px;
+}
 
+.puzcat {
+  text-align: center;
+  margin: 50px;
+  display: inline-block;
 }

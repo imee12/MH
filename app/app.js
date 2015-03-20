@@ -5,8 +5,9 @@ angular.module('MyApp', [
   'ngAnimate',
   'mgcrea.ngStrap',
   'auth',
-  'kids',
+ 'kids',
   'profile',
+  'images',
   'angular-cron-jobs',
   'slidingPuzzle',
   'wordSearchPuzzle',
@@ -16,6 +17,16 @@ angular.module('MyApp', [
     $routeProvider
       .when('/', {
         templateUrl: 'home/views/home.html'
+      })
+      .when('/info', {
+        templateUrl: 'home/views/info.html',
+        controller: 'imageController as imgCtl',
+
+      })
+      .when('/kids', {
+        templateUrl: 'kids/views/puzz.html'
+        //controller: 'imageController as imgCtl',
+
       })
       .when('/404', {
         template: '<h1>Sorry, page not found</h1>'

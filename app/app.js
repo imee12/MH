@@ -26,8 +26,12 @@ angular.module('MyApp', [
       .when('/kids', {
         templateUrl: 'kids/views/puzz.html'
         //controller: 'imageController as imgCtl',
-
       })
+      .when('/friends', {
+        templateUrl: 'home/views/gang.html'
+        //controller: 'imageController as imgCtl',
+      })
+
       .when('/404', {
         template: '<h1>Sorry, page not found</h1>'
       })

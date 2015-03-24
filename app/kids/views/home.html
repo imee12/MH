@@ -1,8 +1,8 @@
 
-
-<h4>this is a word search</h4>
-<div class="type" ng-include="type">
-<!-- <script type="text/ng-template" id="word-search-puzzle"> -->
+<div class="words">
+<h4>DIABETES WORD SEARCH</h4>
+<div class="type" ng-include="type">  </div>
+ <script type="text/ng-template" id="word-search-puzzle"> </script>
   <div id="word-search" ng-controller="wordSearchCtrl">
     <ul class="words">
       <li ng-repeat="word in puzzle.words" ng-class="{'found': word.found}">
@@ -15,4 +15,3 @@
       <strong ng-show="puzzle.solved" ng-show="puzzle.solved">Solved!</strong>
     </div>
   </div>
-<!-- </script> -->

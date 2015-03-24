@@ -24,8 +24,8 @@
             }
 
             function createReminder(newReminder) {
-              newReminder.shdlSMS = new Date(newReminder.shdlSMS).getTime();
-              console.log(newReminder);
+        newReminder.shdlSMS = new Date(newReminder.shdlSMS).getTime();
+            //  console.log(newReminder);
                 $http.post("api/sms/reminder", newReminder).then(function (res) {
                     $rootScope.$broadcast("post:added");
                 });

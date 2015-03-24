@@ -18,6 +18,11 @@
              templateUrl: 'kids/views/puzz.html'
        });
    });
+//    app.config(function($routeProvider) {
+//         $routeProvider.when('/kids/words', {
+//           templateUrl: 'kids/views/home.html'
+//     });
+// });
 
     /**
      * Startup

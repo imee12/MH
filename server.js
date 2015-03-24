@@ -17,7 +17,7 @@ var authRoutes = require('./routes/auth');
 var crudRoutes = require('./routes/apiCrud');
 var profileRoutes = require('./routes/profile');
 var reminderRoutes = require('./routes/reminders');
-
+var agenda = require('agenda');
 
 mongoose.connect(config.MONGO_URI);
 

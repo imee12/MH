@@ -21,7 +21,7 @@
             remCtl.createReminder = function (newRem) {
               newRem.phone = localStorage.getItem('phone');
 
-
+            //  newRem.shldSMS = newRem.shldSMS;
               console.log(newRem);
               remindersService.createReminder(newRem);
                 $location.path('/reminders');
